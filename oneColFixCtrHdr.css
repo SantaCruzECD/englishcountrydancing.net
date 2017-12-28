@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body {
+	font: 100% Georgia, Times New Roman, sans-serif;
+	line-height: 140%;
+	background: rgb(188,183,170);
+	margin: 75; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: rgb(90,90,90);
+}
+
+
+
+.oneColFixCtrHdr #container {
+	width: 800px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: rgb(232,229,213);
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 4px solid rgb(166,163,137);
+	padding: 70px;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColFixCtrHdr #header {
+	background: rgb(166,163,137);
+	padding: 2px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	color: rgb(222,216,200);
+}
+
+
+
+.oneColFixCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColFixCtrHdr #mainContent {
+	padding: 0px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: rgb(233,229,205)
+	color: rgb(70,70,70);
+	}
+	
+	.oneColFixCtrHdr #mainContent p {margin-bottom:0; margin-top:.7em; }
+	
+
+.oneColFixCtrHdr #footer {
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	margin-top: 3em;
+	background:rgb(222,219,200);
+	font: 90%;
+	color: rgb(140,140,140);
+}
+.oneColFixCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+H2 {color: rgb(166,163,137);}
+iframe {border: 4px solid rgb(166,163,137); margin: 25px;}
+
+
+.class1 A:link {text-decoration: none; font-weight: bold; color: rgb(233,229,205);}
+.class1 A:visited {text-decoration: none; color: rgb(233,229,205)}
+.class1 A:active {text-decoration: none}
+.class1 A:hover {text-decoration: none; font-weight: bold; color: rgb(168,85,78);}
+
+.class2 A:link {text-decoration: none; font-weight: bold; color: rgb(166,163,137);}
+.class2 A:visited {text-decoration: none; color: rgb(233,229,205)}
+.class2 A:active {text-decoration: none}
+.class2 A:hover {text-decoration: none; font-weight: bold; color: rgb(168,85,78);}
+
+.image-margin {margin-left: 25px;}
+
