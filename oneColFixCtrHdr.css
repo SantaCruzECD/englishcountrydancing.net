@@ -62,7 +62,7 @@ iframe {border: 4px solid rgb(166,163,137); margin: 25px;}
 .class1 A:hover {text-decoration: none; font-weight: bold; color: rgb(168,85,78);}
 
 .class2 A:link {text-decoration: none; font-weight: bold; color: rgb(166,163,137);}
-.class2 A:visited {text-decoration: none; color: rgb(233,229,205)}
+.class2 A:visited {text-decoration: none; color: rgb(233,0,0)}
 .class2 A:active {text-decoration: none}
 .class2 A:hover {text-decoration: none; font-weight: bold; color: rgb(168,85,78);}
 
